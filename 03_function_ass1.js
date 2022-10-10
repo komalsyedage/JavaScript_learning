@@ -4,6 +4,7 @@ function nayan() {
     console.log("How Are You ?");
 }
 nayan()
+
 function name(firstName, lastname) {
     console.log("==============Concat=================");
     console.log(firstName + lastname);

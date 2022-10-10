@@ -1,22 +1,29 @@
+//function without argumet and return tyope
 function komal(){
     console.log("she is very clever");
     console.log("also she is good girl");
 }
-komal()//function without argumet and return tyope
+komal()
+//function with argumet and return tyope
 function sachin(money){
     console.log(" Please go in market with Rs.: ", money);
     console.log(" Buy some vegetables");
     return "Vegetables bag";
 }
 
+
+
 var veg = sachin(500);
 console.log(veg);
 
 function functionName(city, street, age, is_married){
-    console.log(city , street, age , is_married);
-    return city + street+age+is_married;
+   console.log(city , street, age , is_married);
+    return city +street +age+is_married;
 
 }
+
+
+
 var value =  functionName("Pune", "Khawgalli", 22);
 console.log(value);
 
@@ -35,6 +42,7 @@ swap_values("Mango", "Apple");
 swap_values(100, 300);
 
 console.log("---------- Addition function-------------");
+
 function addition(arg1, arg2, arg3){
     console.log(arg1 + arg2 + arg3);
 }
