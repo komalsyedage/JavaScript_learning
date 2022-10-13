@@ -54,12 +54,23 @@ areaof_triangle(499,917)
 swap_values("Virat", "Anushka")
 swap_values(1000,2000)
 //Using FE find Index,chractor,last chaactor,and middle
-console.log("=============================Using FE Find Position===================================== "); 
-var string=function(Values){
-   var count= string.length;
-   console.log(count);
-  
-  ///some dout here ass no 10 oct Q.6-b
-   
+
+
+
+console.log("====================using FE Find Below============================");
+var value=function(){
+    
+var para="JavaScript the most popular language"
+console.log("===========find length of string===============");
+console.log(para);
+console.log(para.length);
+console.log("================indexof () S=======================");
+console.log(para.indexOf("S"));
+console.log("============ index of string lang==================");
+console.log(para.indexOf("lang"));
+console.log("================last char of length=====================")
+  console.log(para.charAt(35));
+  console.log("================ 3rd last char of length=====================")
+  console.log(para.charAt(33));
 }
-string("JavaScript Is Most Popular Language")
+value()
