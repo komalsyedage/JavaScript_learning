@@ -14,7 +14,7 @@ console.log(typeof married_status);
 console.log("================");
 var my_project_name;
 console.log(my_project_name);
-console.log("================");
+console.log("================");  //if not declare then
 console.log(typeof my_project_name);
 
 var my_properties = null;
