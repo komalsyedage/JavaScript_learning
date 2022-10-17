@@ -10,11 +10,10 @@ function sachin(money){
     console.log(" Buy some vegetables");
     return "Vegetables bag";
 }
-
-
-
 var veg = sachin(500);
 console.log(veg);
+
+
 
 function functionName(city, street, age, is_married){
    console.log(city , street, age , is_married);
@@ -22,10 +21,9 @@ function functionName(city, street, age, is_married){
 
 }
 
-
-
 var value =  functionName("Pune", "Khawgalli", 22);
 console.log(value);
+
 
 
 function swap_values(arg1, arg2){

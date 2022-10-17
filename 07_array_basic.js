@@ -8,5 +8,5 @@ console.log(`Total number elements available in array: ${arrayLength}`);
 
 console.log(`Element at 4th Index is: ${arrayOfNumbers[4]}`);
 
-arrayOfNumbers[2] = 77;
+arrayOfNumbers[2] = 77;//replace 7 by 77
 console.log(arrayOfNumbers);
