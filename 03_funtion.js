@@ -52,6 +52,8 @@ addition("Sachin", "Ramesh", "Tendulkar");
 function test(arg1, arg2) {
     console.log(arg1, arg2);
     return "Sachin";
+    
 }
+var house=test(3,4)
 
-
+console.log(house);

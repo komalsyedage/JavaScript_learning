@@ -1,0 +1,8 @@
+var wordLenghtSquare = function(givenWord){
+   var wordLength = givenWord.length;
+   var sqr = wordLength * wordLength;
+   return sqr;
+
+}
+var result = wordLenghtSquare("JavaScript");
+console.log(result);

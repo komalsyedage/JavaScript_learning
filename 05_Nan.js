@@ -43,6 +43,7 @@ console.log(operand1 + operand2);
 
 console.log("===== Implicit conversion======");
 console.log("4"-true); // 4-1
+console.log(true-"4");
 
 var operand2 = 200;
 console.log(operand2, typeof operand2);
