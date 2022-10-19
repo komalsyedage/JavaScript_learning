@@ -29,16 +29,16 @@ console.log("================= Just log Vowels ======================");
     }
 }
 
-console.log("vwels:============");
+console.log("vowels:============");
 function name(argument){
 
-for (let index = 0; index < string1.length; index++) {
-    var string2=string1.charAt(index);
-    if (string2=="a"||string2=="e"||string2=="i"||string2=="o"||string2=="u") {
+for (let index = 0; index < name.length; index++) {
+    var string2=name.charAt(index);
+    if (name=="a"||name=="e"||name=="i"||name=="o"||name=="u") {
        console.log(string2); 
     }
     
 }
 }
-var string1=("I Love JavaScript")
-console.log(string1);
+var name=("I Love JavaScript")
+console.log(name);
