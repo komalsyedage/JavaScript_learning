@@ -27,12 +27,15 @@ if (score>=90 && score<=100)
         console.log("Passed and GRADE Is A+");
 
     }
-if ( score==" "|| score=="fourty-five"||score==null|| score==undefined||score==-20|| score>100 )
- {
+
+
+    if(typeof(score)==(" ")||typeof(score)==("Fourty-five")||typeof(score)==(null)||typeof(score)==(undefined)||typeof(score)>100||
+
+    typeof(score)<0){
         console.log("Invalid Input");
-
     }
-
+    
+    
 }
 gradeSystem(66)
 gradeSystem(13)

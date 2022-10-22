@@ -60,3 +60,10 @@ let personFullName = person.fullName;
 console.log(personFullName);
 console.log(person.fullName);
 console.table(person);
+
+console.log("=========== in operator================");//check is available or not
+let isAvailable = "fullName" in mohitPerson;
+console.log(isAvailable);
+console.log("city" in mohitPerson);
+console.log("===========================");
+

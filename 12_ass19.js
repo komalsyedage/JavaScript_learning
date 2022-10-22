@@ -28,13 +28,17 @@ if (score>= 75&& score<=90) {
     console.log(`${score}:you are Passed With GRADE is A`);
   
 }
-if (score==" "|| score=="fourt-five"||score==null|| score==undefined||score<0|| score>100 ) {
-    console.log(`${score}:Invalid Input`);
+
    
+if(typeof(score)==" "||typeof(score)=="Fourty-five"||typeof(score)==null||typeof(score)==undefined||typeof(score)>100||
+
+typeof(score)<0){
+    console.log(`${score}:Invalid Input`);
+}
 
 
 }
-}
+
 gradeSystem(66)
 gradeSystem(13)
 gradeSystem(" ")
