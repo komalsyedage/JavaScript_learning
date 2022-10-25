@@ -52,3 +52,4 @@ console.table(employee_info.address);
 console.table( employee_info. Salary);
 employee_info.address.country="United"
 console.table(employee_info.address);
+console.log();

@@ -1,6 +1,7 @@
 var myFullName;
-console.log(myFullName);
 myFullName="Komal Dhone";
+
+
 console.log("Inetial Value:",myFullName);
 myFullName="Komal Vitthal Dhone";
 console.log("Updated Value:",myFullName);

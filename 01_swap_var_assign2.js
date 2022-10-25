@@ -1,6 +1,6 @@
 //swap two variable using Third variable:-
 var sweety;//variable inesilization
-sweety="Sweety";
+sweety="Sweety";//variable decleration
 var cutie;
 cutie= "Cutie";
 console.log("Before swapping:-",sweety,cutie);
