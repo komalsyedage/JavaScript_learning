@@ -19,7 +19,7 @@ function Person(fullName, city, age, gender) {
     this.age = age;
     this.gender = gender;
 }
-Person.prototype.country = "India";//add this propetry to all
+Person.prototype.country = "India";// prototype is used for add india propetry to all
 let sachin = new Person("Sachin Tendulkar", "Surat", 45, "Male");
 
 let riya = new Person("Riya", "Kolhapur", 22, "Female");

@@ -1,4 +1,4 @@
-console.log(" Given words are:JavaScript,Google,Developer");
+console.log("Given words are:JavaScript,Google,Developer");
 var wordLengthSquare=function(word){
 console.log(word.length);
 
@@ -20,7 +20,7 @@ return wordlength*wordlength
 
 
 console.log("Q2**************************************");
-console.log(" string:I Am Angular Developer");
+console.log("string:I Am Angular Developer");
   var givenstringLength=function(){
 
 var givenstringLength="I Am Angular Developer".length;

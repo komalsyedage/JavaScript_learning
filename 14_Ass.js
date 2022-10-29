@@ -5,7 +5,7 @@ console.log("Given Array=========>",array_nums);
 
 const  array2=[55,56];
 
-console.log("shallow clone Array==========>",...array_nums,...array2);
+console.log("shallow clone ==========>",...array_nums,...array2);
 const array3=[10,25];
 console.log("After deep clone==============>",...array_nums,...array2,...array3);
 const array_even=[2,30,14,8]

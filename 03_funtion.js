@@ -21,15 +21,16 @@ function functionName(city, street, age, is_married){
 
 }
 
+
 var value =  functionName("Pune", "Khawgalli", 22);
 console.log(value);
 
 
 
 function swap_values(arg1, arg2){
-    console.log("---------- Before swap-------------");
+    console.log("---------- Before swap -------------");
     console.log(arg1, arg2);
-    console.log("---------- After swap-------------");
+    console.log("---------- After swap -------------");
     var temp = arg1;
     arg1 = arg2;
     arg2 = temp;
@@ -39,7 +40,7 @@ swap_values("Virat", "Anushka");
 swap_values("Mango", "Apple");
 swap_values(100, 300);
 
-console.log("---------- Addition function-------------");
+console.log("--------- Addition function ------------");
 
 function addition(arg1, arg2, arg3){
     console.log(arg1 + arg2 + arg3);
@@ -54,4 +55,3 @@ function test(arg1, arg2) {
 }
 var house=test(3,4)
 
-console.log(house);

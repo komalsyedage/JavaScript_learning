@@ -1,3 +1,4 @@
+//traverse one object
 const mohitPerson =  {
     fullName: "Sachin Tendulkar",
     age: 42,
