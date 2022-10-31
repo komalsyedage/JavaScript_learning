@@ -35,7 +35,7 @@ this.cName=cName;
 this.cPlace=cPlace;
 this.cTrade=cTrade;
 this.cStaff=cStaff;
-this.cfacility=this.cfacility;
+this.cfacility=cfacility;
 
     }
     details(){
