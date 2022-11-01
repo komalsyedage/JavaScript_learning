@@ -30,5 +30,9 @@ console.log(fruits_seasonal6);
 let  fruits_seasonal7=["Banana","Orange","Apple","Mango","Water Melon"];
  fruits_seasonal7.splice(0,2);
  console.log( fruits_seasonal7);
+ //oR Do I 
+var fruits_seasonal8=["Banana","Orange","Apple","Mango","Water Melon"]
+for (let index = 0; index < array.length; index++) {
+    const element = fruits_seasonal8.includes()
+}
 
- 

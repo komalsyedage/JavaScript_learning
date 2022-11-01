@@ -1,4 +1,4 @@
-//write program using inncludes pring vowels
+//write program using inncludes sring vowels
 console.log("Q1=======================================>=");
 //solve from sir
 // Count the total number vowels using includes() for string → “Good Morning IT Champ”

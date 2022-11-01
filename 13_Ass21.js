@@ -1,7 +1,7 @@
 console.log("5 object for Vehicle Class============>");
 class Vehicle{                                                       //V must be capital
     constructor(vName, vColour, vSpeed, vseats,vPayloadCpacity){
-        this.vName=vName;
+        this.vName=vName;                                          //this=referse to an object
         this.vColour = vColour;
         this.vSpeed = vSpeed;
         this.vseats=vseats;
@@ -10,7 +10,7 @@ class Vehicle{                                                       //V must be
        
     }
     details(){
-        console.log(`Vehicle Details: ${this.vName}  ${this.vColour}  ${this.vSpeed}  
+        console.log(`Vehicle Details: ${this.vName}  ${this.vColour}  ${this.vSpeed}  //In backtik string tempelate is thrre
          ${this.vseats}   ${this.vPayloadCpacity}`);
     }
 
