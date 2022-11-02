@@ -19,3 +19,8 @@ function show() {
 
 // display();// Not allowed
 
+var display = function() {
+    console.log("Inside display function expression");
+}
+
+display();
