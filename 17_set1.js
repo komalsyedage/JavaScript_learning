@@ -32,6 +32,6 @@ console.log(setOfNumbers.has(9));
     console.log(element);
 }
 // Remove duplicate element
-let arrayNumbers=[2,4,5,6,3,7,4];
-let arrayUniqueElement=[...new set(arrayNumbers)];
+let arrayNumbers=[2,4,5,5,3,6,3,7,4];
+let arrayUniqueElement=[...new Set(arrayNumbers)];
 console.log(arrayUniqueElement);
