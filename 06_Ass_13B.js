@@ -104,15 +104,8 @@ if(stringlength>=10){
  console.log("Q4.************************************");
 
  var length=function(){
+    var key="JavaScript Language"
 console.log("String Is: JavaScript Language");
-var value1=1;
-var value2=2
-if(value1<=value2){
-    console.log(" string start with word java:yes");
-}
-
-else{
-    console.log("no");
-}
+console.log( key.startsWith("Java"));
  }
  length()

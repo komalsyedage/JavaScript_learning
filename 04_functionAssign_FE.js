@@ -61,16 +61,16 @@ console.log("====================using FE Find Below============================
 var value=function(){
     
 var para="JavaScript the most popular language"
-console.log("===========find length of string===============");
+console.log("===========find length of string ===============");
 console.log(para);
 console.log(para.length);
-console.log("================indexof () S=======================");
+console.log("================indexof () S b=======================");
 console.log(para.indexOf("S"));
-console.log("============ index of string lang==================");
+console.log("============ index of string lang ==================");
 console.log(para.indexOf("lang"));
-console.log("================last char of length=====================")
+console.log("================last char of length =====================")
   console.log(para.charAt(35));
-  console.log("================ 3rd last char of length=====================")
+  console.log("================ 3rd last char of length =====================")
   console.log(para.charAt(33));
 }
 value()

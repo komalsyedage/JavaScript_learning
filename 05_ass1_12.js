@@ -31,5 +31,7 @@ console.log(result);
 console.log("word in string===========>" , result.length);
 console.log( "word length divide by total word in string====>"  , givenstringLength/result.length);
 console.log("string length multiply by total word===>",givenstringLength*result.length);
+var str="I Am Angular Developer"
+console.log("reverse string===>>", result.reverse());
   }
   givenstringLength()
