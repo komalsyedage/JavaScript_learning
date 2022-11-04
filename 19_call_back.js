@@ -16,21 +16,12 @@ function display() {
     console.log("display function");
 }
 
-setTimeout( display, 4000);
+setTimeout(display, 4000);
 
-setInterval(display, 2000);
-
-
-
-
-
-
-
-
-
+setInterval(show, 2000);
 
 function display() {
     console.log("display function");
 }
 
-setInterval( display, 2000);
+setInterval(display, 2000);
