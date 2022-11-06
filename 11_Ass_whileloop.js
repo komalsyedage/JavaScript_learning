@@ -32,3 +32,4 @@ while (count<=18) {
     console.log(count);
     count=count+ 2;
 }
+

@@ -10,7 +10,7 @@ class Vehicle{                                                       //V must be
        
     }
     details(){
-        console.log(`Vehicle Details: ${this.vName}  ${this.vColour}  ${this.vSpeed}  //In backtik string tempelate is thrre
+        console.log(`Vehicle Details: ${this.vName}  ${this.vColour}  ${this.vSpeed} 
          ${this.vseats}   ${this.vPayloadCpacity}`);
     }
 
@@ -35,7 +35,7 @@ this.cName=cName;
 this.cPlace=cPlace;
 this.cTrade=cTrade;
 this.cStaff=cStaff;
-this.cfacility=cfacility;
+this.cSubjecty=cSubject;
 
     }
     details(){
