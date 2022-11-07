@@ -42,9 +42,5 @@ const new_array3=array_emps.filter((Employee)=>{
         console.log(`Name : ${Employee.emp_name} `);
     }
 })
-
-console.log("5.Average Salary Of All Employess: ");
-const new_array4=array_emps.reduce((Employee,emp_salary)=>{
-    return Employee.emp_salary+Employee.emp_salary;
-})
-  console.log();
+// q5 remaining see in notes reslvr dout
+//Q6 

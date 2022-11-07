@@ -19,10 +19,4 @@ const new_array3 = array_numbers.filter((element) => {
 })
 console.log(`All multiple of 5 :  ${new_array3}`);
 console.log("Element between 20 to 50 :");
-const new_array4 = array_numbers.filter((element) => {
-   
-    if (element>=20) {
-        
-        console.log(element);
-    }
-})
+//Q is remain
