@@ -19,18 +19,6 @@ array_numbers.forEach((currentvalue,index)=>
     }console.log(currentvalue,index);
 })
 console.log("====Traversing set using for each===");
-let array_numbers1= new set(array_numbers);
-//in phone
 
 
 
-
-console.log("===== Traversing map using forEach() =====");
-let map = new Map();
-map.set(22, "Sachin");
-map.set(11, "Dravid");
-map.set(33, "Gaungully");
-map.set(77, "Dravid");
-map.forEach( (key, value) => {
-    console.log(key, value);
-} );

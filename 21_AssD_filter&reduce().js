@@ -42,5 +42,8 @@ const new_array3=array_emps.filter((Employee)=>{
         console.log(`Name : ${Employee.emp_name} `);
     }
 })
-// q5 remaining see in notes reslvr dout
-//Q6 
+console.log("--------------------Average Salary of the Employee who is working in IT dept-------------------------");
+var array1=array.filter((value)=>{
+    return value.emp_dept==='IT';
+
+});
