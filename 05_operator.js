@@ -35,7 +35,7 @@ var num2 = 50;
 var num3 = "50"; 
 console.log(`******* == operator ************`);
 var result = num2 == num3; // 50 == 50
-
+// Imp For interview
 console.log("num2==num3=====> ", result);
 
 console.log("num2===num3=====> ", num2===num3);

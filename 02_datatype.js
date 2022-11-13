@@ -12,9 +12,9 @@ console.log(typeof age);
 console.log(typeof married_status);
 
 console.log("================");
-var my_project_name;
+var my_project_name;//only declaration
 console.log(my_project_name);
-console.log("================");  //if not declare then
+console.log("================");  //if not inetialise then
 console.log(typeof my_project_name);
 
 var my_properties = null;

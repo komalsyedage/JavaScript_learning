@@ -1,9 +1,9 @@
-console.log(myName);
+
 
 // console.log(rollNo); // Not allowed to access as variable declared using let doesn't hoisted
 
 // console.log(PIN_CODE); // // Not allowed to access as variable declared using const doesn't hoisted
-
+console.log(myName);
 var myName = "Mohit Sharma";
 
 let rollNo = 1234;
@@ -24,3 +24,7 @@ var display = function() {
 }
 
 display();
+//hoisting
+
+name='syk'
+var name;

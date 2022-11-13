@@ -22,7 +22,7 @@ console.log(result);
 
 
 console.log("==============replace()===============");
-console.log( "Good Morning bro and sis");
+console.log("Good Morning bro and sis");
 var greet = "Good Morning bro and sis";
 var replaceDemo = greet.replace("Morning", "Evening");//replace morning to evening
 console.log(replaceDemo);
@@ -36,7 +36,7 @@ console.log(replaceDemo.toLowerCase());
 console.log("==============trim()===============");
 var greet = "    Good Morning bro and sis   ";
 console.log(greet.length);
-var trimResult =  greet.trim();
+var trimResult = greet.trim();
 console.log(trimResult.length);
 
 
@@ -59,26 +59,22 @@ console.log(greet.slice(8));
 console.log(greet.slice(13, 17));
 
 console.log("==============split()===============");
-var studentList  = "Sunil | Anil| Andy| Jenny| Lata";
+var studentList = "Sunil | Anil| Andy| Jenny| Lata";
 var splitResult = studentList.split("| ");
 console.log(splitResult);
 
-
 var impQuote = `"Do or Die" this attitude is important for this training`;
-console.log(impQuote);
-
-
-
+console.warn(impQuote);
 
 var fName = "Virat";
 var lName = "Kohli";
 
 // First Name:${fName}  Last Name: ${lName} 
 console.log(`First Name : ${fName} and Last Name: ${lName}`);
-console.log(`${fName}${lName}`); 
+console.log(`${fName}${lName}`);
 
 var res = "Hey you are doing good keep it up";
-var stepSplit =  res.split(" ");
+var stepSplit = res.split(" ");
 console.log(stepSplit);
 console.log(stepSplit.length);
 

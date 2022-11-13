@@ -1,4 +1,4 @@
-for (let num = 5; num <=15;num=num+1){
+for (let num = 5; num <=15;num++){
     console.log(num);
    
 }

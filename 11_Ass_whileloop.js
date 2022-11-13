@@ -5,11 +5,11 @@ while (count<=100) {
     count=count+10;
 }
     
-console.log("Write Progrm print no from 5 to 15 by incrementing 1");
+console.log("Write Progrm print no from 5 to 15 by incrementing 2");
 var count=5
 while (count<=15) {
     console.log(count);
-    count++;
+    count=count+2;
 }
 
 console.log("Write Progrm print no from 50 to 40 by decrementing 1");

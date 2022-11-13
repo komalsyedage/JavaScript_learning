@@ -26,4 +26,8 @@ let multilple=(num1,num2,num3=5)=>{
    console.log(sum1 (100,100,200,349,756));
    console.log(sum1("Iam","learning","ES6","features","in depth"));
 
-   
+   //revision
+   let arrao=(n1,n2,n3,n4)=>{
+console.log(`${n1} ${n2}${n4}${n3}`);
+   }
+   arrao("divide",20,"5","/")

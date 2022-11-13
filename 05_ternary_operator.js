@@ -5,3 +5,4 @@ var num1 = -5;
  var num1 = 4;
  var result = num1 > 0 ? "Positive" : "Negative";
  console.log(result);
+

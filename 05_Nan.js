@@ -6,7 +6,7 @@ var myName = "TEST";
 var myAge = "31";
 console.log(typeof myName);
 console.log(typeof myAge);
-
+console.log("============");
 var myAgeInNumber = +myAge; 
 console.log(myAgeInNumber, typeof myAgeInNumber);
 

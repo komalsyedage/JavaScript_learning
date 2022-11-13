@@ -17,7 +17,7 @@ console.log(typeof arg1);
 }
 rest("Komal");
 rest(12);
-rest();
+rest( );
 rest(null)
 
 
@@ -25,7 +25,7 @@ rest(null)
 //Using Function Expression find Area of Triangle
 console.log("==========================Using Function Expression find Area Of Triangle=========================================")
 var areaof_triangle=function(base,height){
-console.log("Area Of Triangle:",base*height);
+console.log("Area Of Triangle:",1/2*(base*height));
 }
 
 areaof_triangle(45,34)
@@ -33,7 +33,7 @@ areaof_triangle(45,34)
 //Using FE find area of Rectangle
 console.log("=======================Area Of Rectangle========================================================");
 var areaOf_rectangle=function(length,width){
-    console.log("Area Of Rectangle",length,width)
+    console.log("Area Of Rectangle",length*width)
 }
 
 

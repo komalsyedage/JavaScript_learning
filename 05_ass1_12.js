@@ -3,6 +3,7 @@ var wordLengthSquare=function(word){
 console.log(word.length);
 
 }
+
 console.log("Q.1.1**************Length Of Word*************");
 wordLengthSquare("JavaScript");
 wordLengthSquare("Google");

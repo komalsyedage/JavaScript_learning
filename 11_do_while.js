@@ -6,9 +6,12 @@ do {
 } while (count<=5); // Condition
 
 
-// WAP to print number from 80 to  70
-var count = 80; // 
+
+//do while
+var count=50;
 do {
     console.log(count);
-    count--;
-} while (count>=70);
+    count-10;
+    
+} while (count=0);
+ var num=40

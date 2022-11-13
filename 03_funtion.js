@@ -22,7 +22,7 @@ function functionName(city, street, age, is_married){
 }
 
 
-var value =  functionName("Pune", "Khawgalli", 22);
+var value =  functionName("Pune", "Khawgalli",22, "yes");
 console.log(value);
 
 
@@ -47,11 +47,12 @@ function addition(arg1, arg2, arg3){
 }
 addition(200, 300, 600);
 addition("Sachin", "Ramesh", "Tendulkar");
-
+console.log("====================");
 function test(arg1, arg2) {
     console.log(arg1, arg2);
     return "Sachin";
     
 }
 var house=test(3,4)
+console.log(house);
 

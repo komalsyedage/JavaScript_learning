@@ -94,6 +94,19 @@ switch(month){
     break;
 }
 
+
+function great(n2){
+   
+    switch (n2) {
+        case n2:
+            console.log("march");
+            break;
+    
+    }
+}
+great(4)
+var nice=function(){
+  
 var month=8;
 switch(month){
     case 1:
@@ -142,3 +155,5 @@ switch(month){
     break;
 }
 
+}
+nice()

@@ -17,5 +17,6 @@ num1=num2;
 num2=num3;
 num3=num3-num1;
 
+
 console.log("After swapping:-");
 console.log(num1,num2,num3);
