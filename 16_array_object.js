@@ -34,3 +34,14 @@ for (const person of array) {
           console.log(`${person.fullName}  ${person.city}  ${person.age} ${person.gender} `);
     }
 }
+console.log("Practise ");
+//date=16/11
+//merge two array
+let arry1=["Komal","Ganesh","Rahul","Rupali","Sitaram"]
+let arr1=["Vijay","Baba","Akshay","Vinu"]
+arr2=[...arry1,...arr1]
+console.log(arr2);
+console.log(arr1.concat(arry1));
+
+let n=["Komal","sitaram","Yedage"]
+console.log(...n);
