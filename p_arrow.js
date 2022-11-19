@@ -7,7 +7,7 @@ display("Komal","Sitaram")
 
 let shoe=()=>{
 console.log("Good Morning Today Is Friday");
-}//here we cannot add shoe() show error
+}//here we cannot add shoe() show error only use ; and shoe() then it will run
 shoe()
 
 let show=(a,d,b=2)=>{//default value
