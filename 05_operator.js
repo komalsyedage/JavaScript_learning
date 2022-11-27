@@ -25,8 +25,8 @@ console.log("num1>num2 ===> ",  num1>num2);
 console.log("num1!=num2 ====> ", num1!=num2);
 
 var num3 = 50; 
-console.log("num2<num3) ===> ",  num2<num3);
-console.log("num2<=num3) ===> ",  num2<=num3);
+console.log("num2<num3 ===> ",  num2<num3);
+console.log("num2<=num3 ===> ",  num2<=num3);
 console.log("num2>num3=====> ", num2>num3);
 console.log("num2>=num3=====> ", num2>=num3);
 
