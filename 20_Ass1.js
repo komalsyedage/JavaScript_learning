@@ -5,7 +5,7 @@ let show=() =>{
     console.log("Good Evening,Today is Sunday");
 }
 show();
-console.log("Q2.a=====pass 3 Argument with no return Value do Multiplication =====");
+console.log("Q2.a=====pass 3 +Argument with no return Value do Multiplication =====");
 console.log("value is 5,5,2");
 let multilpy=(num1,num2,num3)=>{
 console.log(num1*num2*num3);
@@ -18,7 +18,7 @@ let multilple=(num1,num2,num3=5)=>{
     }
     multilple(10,4)
 
-   console.log("Q3======add 100,100,200,349,756 andgiven string====="); 
+   console.log("Q3======add 100,100,200,349,756 and given string====="); 
    let sum1=(v1,v2,v3,v4,v5)=>{
     return v1+v2+v3+v4+v5;
 

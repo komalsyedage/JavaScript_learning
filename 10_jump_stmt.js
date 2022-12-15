@@ -11,3 +11,8 @@ for (let index = 0; index < 10; index++) {
     }
     console.log(index); 
 }
+// var result="Hello Komal How Are You";
+// var re1=result.slice(" ")
+// console.log(re1);
+var number=null;
+console.log(number);

@@ -49,3 +49,18 @@ function num(...arg) {
 }
 num("Hii" ,"Good","Morning")
 num(2,4,"hii jenii")
+
+//var variable
+var name="komal";
+console.log(name);
+var name="sitaram";
+console.log(name);
+//let variable
+let mine="sitaram";
+console.log(mine);
+mine="komal"
+console.log(mine);
+//second same name let not allowed
+//const
+const moon="bnbn";
+console.log(moon);

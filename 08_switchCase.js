@@ -27,7 +27,7 @@ switch (number) {
 }
 
 //or default
-var dayNumber = 8;
+var dayNumber = 9;
 switch (dayNumber) {
     case 1:
         console.log("Monday");

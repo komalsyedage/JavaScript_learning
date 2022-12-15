@@ -1,0 +1,10 @@
+let obj={ };
+obj.name="Komal";
+console.log(obj);
+const obj1={ };
+obj1.name="sitaram";
+console.log(obj1);
+obj1.address="xyz";
+console.log(obj);
+obj1.State="MH";
+console.log(obj1);

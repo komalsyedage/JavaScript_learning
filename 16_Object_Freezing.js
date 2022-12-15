@@ -15,7 +15,8 @@ Object.freeze(arrayNumbers); // Immutable: We can not change the array values af
 // arrayNumbers.push(99);
 console.log(arrayNumbers);
 
-
+//arrayNumbers.push(89)  // cannot push after 
+console.log(arrayNumbers);
 
 
 

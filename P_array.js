@@ -28,3 +28,4 @@ console.log("slice method");
 let numr=[99,23,30,66,27,6,5,12,121]
 numr.splice(2,3,77,80);
 console.log(numr);
+console.log(numr.slice(1,5));

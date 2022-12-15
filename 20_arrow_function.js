@@ -22,3 +22,19 @@ let sum = (n1, n2) =>  n1 + n2;
 
 console.log( sum(10, 20));
 //arrow function
+let show1=(a,b)=>{
+console.log(b/a);
+}
+show1(10,50);
+
+var nmn=(b,d)=>{
+return b/d;
+}
+console.log(nmn(40,20)); 
+
+let that=(n,m,d)=>{
+console.log(n+m+d);
+}
+that(2,4,7)
+
+

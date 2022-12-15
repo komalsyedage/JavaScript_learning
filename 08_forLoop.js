@@ -9,7 +9,7 @@ for (let index = 0; index <= 10; index=index+2) { // index++   index = index+2
 
 // initialization: 1  condition <=10   update by 1;    
 for (var test = 1; test <= 10; test++) { // test = 1  2  3
-    // console.log(test); // 1 2  3
+     console.log(test); // 1 2  3
 }
 // 0 2 4 6 8 10
 for (let index = 0; index <= 10; index=index+2) { // index++   index = index+2
