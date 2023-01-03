@@ -34,36 +34,42 @@ const bank=[axis_bank.bankName,sbi_bank.bankName,icici_bank.bankName,
 console.log("Bank name:",bank);
 
     console.table(bank);
-    const location=[axis_bank.location,sbi_bank.location,icici_bank.location,kotak_bank.location,
-        hdfc_bank.location,panjab_bank.location]
-    console.log("Location:",location);
-   console.table(location); 
+
+//     const location=[axis_bank.location,sbi_bank.location,icici_bank.location,kotak_bank.location,
+//         hdfc_bank.location,panjab_bank.location]
+//     console.log("Location:",location);
+//    console.table(location); 
 
 
-   const array=[axis_bank,sbi_bank,icici_bank,kotak_bank,hdfc_bank,panjab_bank]
-   for (const Bank of array) {
-    if(Bank.location=location) {
-          console.log(`${location}`);
-    }
-}
-const array1=[axis_bank,sbi_bank,icici_bank,kotak_bank,hdfc_bank,panjab_bank]
-for (let Bank of array1) {
-    if(Bank.time=Bank.time) {
-          console.log(`${Bank.time}`);
-    }
-}
-const array3=[axis_bank,sbi_bank,icici_bank,kotak_bank,hdfc_bank,panjab_bank]
-for (let Bank of array3) {
-    if(Bank.bankName=Bank.tim) {
-          console.log(`${Bank.time}`);
-    }
-}
+//    const array=[axis_bank,sbi_bank,icici_bank,kotak_bank,hdfc_bank,panjab_bank]
+//    for (const Bank of array) {
+//     if(Bank.location=location) {
+//           console.log(`${location}`);
+//     }
+// }
+// const array1=[axis_bank,sbi_bank,icici_bank,kotak_bank,hdfc_bank,panjab_bank]
+// for (let Bank of array1) {
+//     if(Bank.time=Bank.time) {
+//           console.log(`${Bank.time}`);
+//     }
+// }
+// const array3=[axis_bank,sbi_bank,icici_bank,kotak_bank,hdfc_bank,panjab_bank]
+// for (let Bank of array3) {
+//     if() {
+//           console.log(`${Bank.time}`);
+//     }
+// }
 // OR
+
 var array5=[axis_bank,sbi_bank,icici_bank,kotak_bank,hdfc_bank,panjab_bank]
 
 for (const element of array5) {
     
-    if(array5.location==Bank.location) {
-        console.log(`${Bank.location}  `);
+    if(element.bankName=='KOTAK Bank') {
+        console.log(`Bank Name:${element.bankName}  Loction:${element.location} `);
   }
+}
+for (const bankDetails of array5) {
+    console.log(`${bankDetails.bankName} ${bankDetails.location} ${bankDetails.time} ${bankDetails.account_no}`);
+    
 }
